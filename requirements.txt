@@ -1,0 +1,9 @@
+# Reads and writes PDFs. The [crypto] part adds support for PDFs that are
+# encrypted (many PDFs from banks, schools and offices are, even without a password).
+pypdf[crypto]>=5.0
+
+# Handles the pictures: compressing images inside PDFs and turning images into PDFs.
+Pillow>=10.0
+
+# Lets the "images" tool read HEIC/HEIF, the photo format iPhones use.
+pillow-heif>=0.18
